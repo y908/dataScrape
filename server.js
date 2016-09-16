@@ -11,7 +11,7 @@ var mongoose = require('mongoose');
 // Notice: Our scraping tools are prepared, too
 var request = require('request'); 
 var cheerio = require('cheerio');
-var port = process.env.PORT || 3000;
+var PORT = process.env.PORT || 3000;
 
 // use morgan and bodyparser with our app
 app.use(logger('dev'));
